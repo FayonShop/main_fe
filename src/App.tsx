@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import AppRoutes from "./App.routes";
 
 function App() {
   return (
-    <div className="App">
-      <p>React App</p>
-    </div>
+    <>
+      <AppRoutes/>
+    </>
   );
 }
 
