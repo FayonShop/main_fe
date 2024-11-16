@@ -7,7 +7,7 @@ export default function BasicLayout() {
   return (
     <div className={styles.container}>
       <Sidebar/>
-      <div>
+      <div className={styles.rightSide}>
         <Header/>
         <Outlet/>
       </div>

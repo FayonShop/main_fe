@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  height: 32px;
+  width: 320px;
+
+  input {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 7px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+  }
+
+  button {
+    height: 100%;
+    width: 32px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: white;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button:active {
+    background-color: rebeccapurple;
+  }
+
+  button:hover {
+    background-color: lightgray;
+  }
+}
