@@ -1,7 +1,3 @@
 export default function PrivateRoute() {
-  return (
-    <div>
-
-    </div>
-  );
+  return <div />;
 }

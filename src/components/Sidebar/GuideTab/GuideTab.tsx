@@ -1,17 +1,15 @@
-import {PropsWithChildren} from "react";
-import styles from "./GuideTab.module.scss";
-import classNames from "../../../utils/classNames";
+import { PropsWithChildren } from 'react';
+import classNames from '../../../utils/classNames';
+import styles from './GuideTab.module.scss';
 
 export interface GuideTabProps extends PropsWithChildren {
-  isLeftOpen?: boolean
+  isLeftOpen?: boolean;
 }
 
-export default function GuideTab(
-  { children, isLeftOpen = false }: GuideTabProps
-) {
+export default function GuideTab({ children, isLeftOpen = false }: GuideTabProps) {
   return (
     <div className={classNames(styles.container, isLeftOpen ? styles.open : '')}>
-      <div className={classNames(styles.overlay)}></div>
+      <div className={classNames(styles.overlay)} />
       {children}
       <button onClick={() => console.log('CLICK')}>FFFFFFFFFFFFFFFFFFFF</button>
     </div>
