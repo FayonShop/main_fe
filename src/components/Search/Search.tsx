@@ -1,13 +1,13 @@
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import styles from './Search.module.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from './Search.module.scss';
 
-export default function Search () {
+export default function Search() {
   return (
     <div className={styles.container}>
-      <input type="text" placeholder="Search"></input>
+      <input type="text" placeholder="Search" />
       <button>
-        <FontAwesomeIcon icon={faMagnifyingGlass}/>
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
       </button>
     </div>
   );

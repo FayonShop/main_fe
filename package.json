@@ -29,7 +29,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose"
   },
   "eslintConfig": {
     "extends": [
@@ -52,7 +53,10 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "eslint": "^8.57.1",
-    "prettier": "^3.3.3",
-    "sass": "^1.80.6"
+    "sass": "^1.80.6",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "tslint-react": "^4.1.0"
   }
 }
