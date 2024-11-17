@@ -1,9 +1,4 @@
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from 'react-router-dom';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import BasicLayout from './layouts/BasicLayout/BasicLayout';
 import ContentPage from './pages/ContentPage/ContentPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
