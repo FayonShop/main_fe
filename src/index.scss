@@ -1,0 +1,14 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html[data-theme="light"] {
+    --header-background-color: green;
+}
+
+html[data-theme="dark"] {
+    --header-background-color: black;
+}

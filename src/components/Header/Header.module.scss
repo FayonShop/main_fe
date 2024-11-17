@@ -1,7 +1,10 @@
+@import "src/index.scss";
+
 .container {
   height: 57px;
   width: 100%;
-  background-color: rgb(220, 218, 218);
+  //background-color: rgb(220, 218, 218);
+  background-color: var(--header-background-color);
 
   display: flex;
   justify-content: right;

@@ -9,18 +9,9 @@ export type CLinkProps = LinkProps & {
   children?: ReactNode;
 };
 
-export default function CNavLink({
-  to,
-  activeClassName,
-  linkClassName,
-  children,
-  ...props
-}: CLinkProps) {
+export default function CNavLink({ to, activeClassName, linkClassName, children, ...props }: CLinkProps) {
   const isActive = useMatch(to);
-  const classes = [
-    linkClassName || cLInkStyles.link,
-    isActive ? activeClassName || cLInkStyles.active : '',
-  ].join(' ');
+  const classes = [linkClassName || cLInkStyles.link, isActive ? activeClassName || cLInkStyles.active : ''].join(' ');
 
   return (
     <Link to={to} className={classes} {...props}>

@@ -11,7 +11,7 @@ export default function GuideTab({ children, isLeftOpen = false }: GuideTabProps
     <div className={classNames(styles.container, isLeftOpen ? styles.open : '')}>
       <div className={classNames(styles.overlay)} />
       {children}
-      <button onClick={() => console.log('CLICK')}>FFFFFFFFFFFFFFFFFFFF</button>
+      <button>FFFFFFFFFFFFFFFFFFFF</button>
     </div>
   );
 }

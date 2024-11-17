@@ -22,12 +22,7 @@ export default function GuideList({ isOpen = false, toggleOpen }: GuideListProps
           </button>
         )}
 
-        <GuideItem
-          link={'/'}
-          icon={<FontAwesomeIcon icon={faCartShopping} />}
-          title={'Catalog'}
-          isOpen={isOpen}
-        />
+        <GuideItem link={'/'} icon={<FontAwesomeIcon icon={faCartShopping} />} title={'Catalog'} isOpen={isOpen} />
         <GuideItem icon={'II'} title={'Title 3'} isOpen={isOpen} />
         <GuideItem icon={'IV'} title={'Title 4'} isOpen={isOpen} />
         <GuideItem icon={'V'} title={'Title 5'} isOpen={isOpen} />
