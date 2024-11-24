@@ -21,6 +21,7 @@
     "start": "vite",
     "build": "sc -b && vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "prepare": "husky"
   },
   "devDependencies": {
